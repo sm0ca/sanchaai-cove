@@ -1,2 +1,2 @@
-# sanchaai-cove
+# Sanchaai's Cove
 My personal website!
