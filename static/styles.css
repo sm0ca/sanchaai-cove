@@ -4,7 +4,7 @@
     --tile-bg-color-hover:      #fefefe;
 
     --tile-border-color:        rgba(0, 0, 0, 0);
-    --tile-border-color-hover:  rgb(181, 223, 255);
+    --tile-border-color-hover:  rgb(185, 235, 255);
 
     --title-text-color:         rgb(31, 30, 30, 0.88);
     --tile-cover-text-color:    rgba(30, 30, 30, 0.85);
@@ -14,14 +14,14 @@
     --link-color-hover:         rgb(187, 223, 248);
     --link-color-active:        rgb(97, 172, 219);
 
-    --blog-bg-color:            rgb(220, 241, 255);
-    --about-bg-color:           rgb(220, 242, 255);
-    --research-bg-color:        rgb(220, 243, 255);
-    --projects-bg-color:        rgb(220, 242, 255);
-    --experience-bg-color:      rgb(220, 243, 255);
-    --extra-bg-color:           rgb(220, 242, 255);
-    --contact-bg-color:         rgb(220, 241, 255);
-    --links-bg-color:           rgb(220, 242, 255);
+    --blog-bg-color:            rgb(221, 245, 255);
+    --about-bg-color:           rgb(221, 245, 255);
+    --research-bg-color:        rgb(221, 245, 255);
+    --projects-bg-color:        rgb(221, 245, 255);
+    --experience-bg-color:      rgb(221, 245, 255);
+    --extra-bg-color:           rgb(221, 245, 255);
+    --contact-bg-color:         rgb(221, 245, 255);
+    --links-bg-color:           rgb(221, 245, 255);
 }
 
 html {
