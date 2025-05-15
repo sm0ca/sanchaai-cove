@@ -3,25 +3,26 @@
     --main-bg-color:            #fefefe;
     --tile-bg-color-hover:      #fefefe;
 
-    --tile-border-color:        rgba(0, 0, 0, 0);
-    --tile-border-color-hover:  rgb(185, 235, 255);
+    --tile-border-color:        transparent;
+    --tile-border-color-hover:  #d2eef6;
 
-    --title-text-color:         rgb(31, 30, 30, 0.88);
-    --tile-cover-text-color:    rgba(30, 30, 30, 0.85);
-    --tile-content-text-color:  rgba(26, 26, 26, 0.85);
+    --title-text-color:         #1f1e1ee0;
+    --tile-cover-text-color:    #1e1e1ed9;
+    --tile-content-text-color:  #1a1a1ad9;
 
-    --link-color:               rgb(99, 140, 195);
-    --link-color-hover:         rgb(187, 223, 248);
-    --link-color-active:        rgb(97, 172, 219);
+    --link-color:               #4684B4;
+    --link-color-hover:         #bbe0f8;
+    --link-color-active:        #61b0db;
 
-    --blog-bg-color:            rgb(221, 245, 255);
-    --about-bg-color:           rgb(221, 245, 255);
-    --research-bg-color:        rgb(221, 245, 255);
-    --projects-bg-color:        rgb(221, 245, 255);
-    --experience-bg-color:      rgb(221, 245, 255);
-    --extra-bg-color:           rgb(221, 245, 255);
-    --contact-bg-color:         rgb(221, 245, 255);
-    --links-bg-color:           rgb(221, 245, 255);
+    --tile-bg-color:            #e4f3fa;
+    /* --blog-bg-color:            #e4f3fa;
+    --about-bg-color:           #e4f3fa;
+    --research-bg-color:        #e4f3fa;
+    --projects-bg-color:        #e4f3fa;
+    --experience-bg-color:      #e4f3fa;
+    --extra-bg-color:           #e4f3fa;
+    --contact-bg-color:         #e4f3fa;
+    --links-bg-color:           #e4f3fa; */
 }
 
 html {
@@ -120,8 +121,9 @@ a:active {
 }
 
 .tiles > div {
-    border-radius: 1.5rem;
-    border: 2px solid var(--tile-border-color);
+    background: var(--tile-bg-color);
+    border-radius: 2rem;
+    border: 0.15rem solid var(--tile-border-color);
     position: relative;
     padding: 1rem;
     transition: 500ms ease 5ms;
@@ -218,42 +220,42 @@ a:active {
 .blog {
     grid-area: blog;
     animation-delay: 1.1s;
-    background: var(--blog-bg-color)
+    /* background: var(--blog-bg-color) */
 }
 .about {
     grid-area: about;
     animation-delay: 1.2s;
-    background: var(--about-bg-color);
+    /* background: var(--about-bg-color); */
 }   
 .contact {
     grid-area: contact;
     animation-delay: 1.4s;
-    background: var(--contact-bg-color);
+    /* background: var(--contact-bg-color); */
 }
 .projects {
     grid-area: projects;
     animation-delay: 1.5s;
-    background: var(--projects-bg-color);
+    /* background: var(--projects-bg-color); */
 }
 .experience {
     grid-area: experience;
     animation-delay: 1.6s;
-    background: var(--experience-bg-color);
+    /* background: var(--experience-bg-color); */
 }
 .extra {
     grid-area: extra;
     animation-delay: 1.8s;
-    background: var(--extra-bg-color);
+    /* background: var(--extra-bg-color); */
 }
 .research {
     grid-area: research;
     animation-delay: 1.3s;
-    background: var(--research-bg-color);
+    /* background: var(--research-bg-color); */
 }
 .links {
     grid-area: links;
     animation-delay: 1.7s;
-    background: var(--links-bg-color);
+    /* background: var(--links-bg-color); */
 }
 
 
@@ -293,7 +295,7 @@ a:active {
 
 .tiles > div:hover, .tiles > div:focus {
     background: var(--tile-bg-color-hover);
-    border: 2px solid var(--tile-border-color-hover);
+    border: 0.15rem solid var(--tile-border-color-hover);
 }
 
 
