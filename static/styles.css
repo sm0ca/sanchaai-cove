@@ -14,14 +14,14 @@
     --link-color-hover:         rgb(187, 223, 248);
     --link-color-active:        rgb(97, 172, 219);
 
-    --blog-bg-color:            rgb(220, 240, 255);
-    --about-bg-color:           rgb(220, 241, 255);
-    --research-bg-color:        rgb(220, 242, 255);
-    --projects-bg-color:        rgb(220, 241, 255);
-    --experience-bg-color:      rgb(220, 242, 255);
-    --extra-bg-color:           rgb(220, 241, 255);
-    --contact-bg-color:         rgb(220, 240, 255);
-    --links-bg-color:           rgb(220, 241, 255);
+    --blog-bg-color:            rgb(220, 241, 255);
+    --about-bg-color:           rgb(220, 242, 255);
+    --research-bg-color:        rgb(220, 243, 255);
+    --projects-bg-color:        rgb(220, 242, 255);
+    --experience-bg-color:      rgb(220, 243, 255);
+    --extra-bg-color:           rgb(220, 242, 255);
+    --contact-bg-color:         rgb(220, 241, 255);
+    --links-bg-color:           rgb(220, 242, 255);
 }
 
 html {
