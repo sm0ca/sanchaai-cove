@@ -282,18 +282,18 @@ a:active {
 
 
 /* HOVER EFFECTS */
-.tiles > div:hover .tile-cover, .tiles > div:focus .tile-cover {
+.tiles > div:hover .tile-cover, .tiles > div:active .tile-cover {
     opacity:0;
     transform: scale(0);
     visibility: hidden;
 }
 
-.tiles > div:hover .content, .tiles > div:focus .content {
+.tiles > div:hover .content, .tiles > div:active .content {
     opacity:1;
     visibility: visible;
 }
 
-.tiles > div:hover, .tiles > div:focus {
+.tiles > div:hover, .tiles > div:active {
     background: var(--tile-bg-color-hover);
     border: 0.15rem solid var(--tile-border-color-hover);
 }
